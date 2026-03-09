@@ -19,7 +19,7 @@ def agente_reflexivo(posicion, entorno):
         print(f"Posición actual: {posicion}")
         print(f"Estado del entorno: {entorno}")
 
-        # Regla reflexiva: si está sucio, limpia; si está limpio, muévete
+        # Regla reflexiva: si está sucio, limpia, si está limpio, muévete
         if entorno[posicion] == "sucio":
             print("Acción: Limpiar")
             entorno[posicion] = "limpio"
